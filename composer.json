@@ -1,0 +1,16 @@
+{
+  "name": "iwai/phalcon-model-metadata-redis-adapter",
+  "description": "Adapt to Redis the model metadata of Phalcon.",
+  "keywords": [ "phalcon", "redis" ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    { "name":"Yuji Iwai", "email":"iwai.ug@gmail.com" }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": { "Iwai\\Phalcon\\Mvc\\Model\\MetaData\\": "src/" }
+  }
+}
