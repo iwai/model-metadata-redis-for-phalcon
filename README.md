@@ -1,6 +1,8 @@
 # model-metadata-redis-for-phalcon
 Adapt to Redis the model metadata of Phalcon
 
+[![Latest Stable Version](https://poser.pugx.org/iwai/phalcon-model-metadata-redis-adapter/v/stable.svg)](https://packagist.org/packages/iwai/phalcon-model-metadata-redis-adapter) [![Total Downloads](https://poser.pugx.org/iwai/phalcon-model-metadata-redis-adapter/downloads.svg)](https://packagist.org/packages/iwai/phalcon-model-metadata-redis-adapter) [![Latest Unstable Version](https://poser.pugx.org/iwai/phalcon-model-metadata-redis-adapter/v/unstable.svg)](https://packagist.org/packages/iwai/phalcon-model-metadata-redis-adapter) [![License](https://poser.pugx.org/iwai/phalcon-model-metadata-redis-adapter/license.svg)](https://packagist.org/packages/iwai/phalcon-model-metadata-redis-adapter)
+
 # Usage
 
 ```php
