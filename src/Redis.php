@@ -9,7 +9,7 @@
 
 namespace Iwai\Phalcon\Mvc\Model\MetaData;
 
-use Redis;
+use \Redis as PhpRedis;
 use Phalcon\Mvc\Model\MetaData;
 
 class Redis extends MetaData {
@@ -35,11 +35,11 @@ class Redis extends MetaData {
     private function getClient()
     {
         if (!isset($this->_client)) {
-            $client = new \Redis();
+            $client = new PhpRedis();
             $client->pconnect(
                 $this->_options['host'], $this->_options['port'], 0, gethostname()
             );
-            $client->setOption(\Redis::OPT_SERIALIZER, \Redis::SERIALIZER_PHP);
+            $client->setOption(PhpRedis::OPT_SERIALIZER, PhpRedis::SERIALIZER_PHP);
             $client->select(0);
 
             $this->_client = $client;
